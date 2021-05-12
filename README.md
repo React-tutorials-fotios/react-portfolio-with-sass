@@ -42,3 +42,7 @@ Libraries:
 - "@fortawesome/free-brands-svg-icons"
 - "@fortawesome/free-solid-svg-icons"
 - "@fortawesome/react-fontawesome"
+
+Notes:
+
+- We also need to `npm install node-sass`
