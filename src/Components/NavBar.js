@@ -3,13 +3,14 @@ import { NavLink } from "react-router-dom";
 
 import avatar from "../img/fotios2020Profile.png";
 
-export default function NavBar() {
+function Navbar() {
   return (
     <div className="NavBar">
-      <div className="profie">
-        <img src={avatar} alt="avatar" />
-      </div>
       <nav className="nav">
+        <div className="profile">
+          <img src={avatar} alt="" />
+        </div>
+
         <ul className="nav-items">
           <li className="nav-item">
             <NavLink to="/" exact activeClassName="active">
@@ -37,10 +38,13 @@ export default function NavBar() {
             </NavLink>
           </li>
         </ul>
+
+        <footer className="footer">
+          <p>@2021 Lorem Ipsum</p>
+        </footer>
       </nav>
-      <footer className="footer">
-        <p>@2021</p>
-      </footer>
     </div>
   );
 }
+
+export default Navbar;
