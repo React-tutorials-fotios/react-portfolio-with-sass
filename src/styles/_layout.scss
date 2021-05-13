@@ -8,9 +8,12 @@
   }
 
   .main-content {
+    position: relative;
     width: 84%;
     margin-left: 16%;
     background-color: #10121b;
     min-height: 100vh;
+    background-image: url(../img/dots.svg);
+    display: grid;
   }
 }
